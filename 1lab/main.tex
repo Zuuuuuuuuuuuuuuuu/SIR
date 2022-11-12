@@ -37,6 +37,7 @@
     Temat:          & Sterowniki PLC (TSX Micro 37)     \\ \hline
     Wykonanie:      & Zuzanna Mejer, 259382   \\ \hline
     Termin zajęć:   & poniedziałek TP, 10:55  \\ \hline  
+    Data:           & 17.10.2022    \\ \hline
     \end{tabularx}
     \end{table}
 
@@ -47,7 +48,14 @@ Celem ćwiczenia było zaznajomienie się z obsługą sterownika PLC - konfigura
 Przed rozpoczęciem pracy ze sterownikiem, należało uruchomić i skonfigurować oprogramowanie i sterownik. W tym celu wykonano poniższe czynności.
 
 \begin{enumerate}
-    \item Uruchomiono program PL7PRO i utworzono nowy projekt. Pojawiło się okno, w którym należało wybrać odpowiedni sterownik (TSX Micro), model wraz z wersją oprogramowania (TSX 3721 V1.5 - ze względu na brak wersji V1.6) oraz zaznaczyć ,,No'' przy Grafcet. Przedstawia to poniższe zdjęcie. \\ \colorbox{WildStrawberry}{tu foto}
+    \item Uruchomiono program PL7PRO i utworzono nowy projekt. Pojawiło się okno, w którym należało wybrać odpowiedni sterownik (TSX Micro), model wraz z wersją oprogramowania (TSX 3721 V1.5 - ze względu na brak wersji V1.6) oraz zaznaczyć ,,No'' przy Grafcet. Przedstawia to poniższe zdjęcie.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.20]{konfiguracja.jpg}
+        \caption{Uruchomienie programu}
+    \end{figure}
+
+
     \item Następnie zdefiniowano typy modułów sterownika. Wybrano opcję \textit{Configuration $ \rightarrow $ Hardware configuration} i wpisano odpowiednie typy modułów. W przypadku stanowiska pierwszego były one następujące: 
     \begin{itemize}
         \item moduł wejść i wyjść cyfrowych - TSX DMZ 28DR
@@ -129,18 +137,52 @@ Parametr \textit{TMi.V} to bieżąca wartość timera. Timer ten działa pulsacy
 
 Zbudowany został następujący układ:
 
-\colorbox{WildStrawberry}{tutaj foto}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{operate.png}
+    \caption{Zmiana stałej PRESET Timera przy pomocy funkcji \textit{operate}}
+\end{figure}
 
-\colorbox{WildStrawberry}{tutaj opis}
+Poniżej przedstawiono zdjęcie programu:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{operate_zdj.jpg}
+    \caption{Realizacja zmiany stałej Timera przy pomocy funkcji \textit{operate}}
+\end{figure}
+
+Funkcja \textit{operate} służy do zamiany wartości zadanej TM.P po przyciśnięciu $\%I1.1$ na wartość 50 i po puszczeniu - z powrotem na wartość 30. Jeśli wciśnięty jest $\%I1.1$ i $\%I1.0$, licznik odlicza 5 sekund, po czym aktywuje $\%Q2$. Jeśli natomiast wciśnięty jest jedynie $\%I1.0$, licznik odmierza 3 sekundy.
 
 
 \subsection{Liczniki}
 
-\colorbox{WildStrawberry}{tutaj foto}
+Opracowano następujący układ licznika:
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{licznik.png}
+    \caption{}
+\end{figure}
 
-\colorbox{WildStrawberry}{tutaj opis}
+Poniżej przedstawiono jego realizację w programie:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{licznik_zdj.jpg}
+    \caption{Realizacja licznika w programie}
+\end{figure}
+
+Ponadto, zbudowano generator do testowania licznika zdarzeń, co przedstawia poniższe zdjęcie:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{licznik_zdj2.jpg}
+    \caption{Realizacja generatora do testowania licznika zdarzeń}
+\end{figure}
+
+Podczas zajęć zabrakło czasu, żeby przetestować działanie licznika i napisanego fragmentu programu.
+
 
 \section{Podsumowanie}
+Zajęcia poświęcone były wprowadzeniu do obsługi sterowników PLC oraz do języka drabinkowego. Podczas zajęć zaznajomiono się z podstawowymi funkcjami logicznymi, układami czasowymi oraz licznikami. Zadania nie sprawiły problemów.
+
 
 
 \end{document}
