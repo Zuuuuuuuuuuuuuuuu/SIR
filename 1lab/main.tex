@@ -119,8 +119,6 @@ Układ TOF został przedstawiony poniżej:
 
 Po wciśnięciu przycisku $\%I1.0$ program od razu aktywuje zmienną $\%Q2.0$ i wyłącza program po odliczeniu czasu wyliczonego jako $ TB \cdot TM.P $. 
 
-\colorbox{WildStrawberry}{przebiegi?}
-
 \subsubsection{Timer Pulse (TP) - puls}
 
 Układ TP został przedstawiony poniżej:
@@ -151,7 +149,7 @@ Poniżej przedstawiono zdjęcie programu:
     \caption{Realizacja zmiany stałej Timera przy pomocy funkcji \textit{operate}}
 \end{figure}
 
-Funkcja \textit{operate} służy do zamiany wartości zadanej TM.P po przyciśnięciu $\%I1.1$ na wartość 50 i po puszczeniu - z powrotem na wartość 30. Jeśli wciśnięty jest $\%I1.1$ i $\%I1.0$, licznik odlicza 5 sekund, po czym aktywuje $\%Q2$. Jeśli natomiast wciśnięty jest jedynie $\%I1.0$, licznik odmierza 3 sekundy.
+Funkcja \textit{operate} służy do zamiany wartości zadanej TM.P po przyciśnięciu $\%I1.1$ na wartość 50 i po puszczeniu - z powrotem na wartość 30. Jeśli wciśnięty jest $\%I1.1$ i $\%I1.0$, timer odlicza 5 sekund, po czym aktywuje $\%Q2$. Jeśli natomiast wciśnięty jest jedynie $\%I1.0$, timer odmierza 3 sekundy.
 
 
 \subsection{Liczniki}
