@@ -60,16 +60,31 @@ i sterownik. W tym celu wykonano poniższe czynności.
 \begin{enumerate}
     \item Uruchomiono program PL7PRO i utworzono nowy projekt. Pojawiło się okno, w którym należało wybrać odpowiedni sterownik (TSX Micro), model wraz z wersją oprogramowania (TSX
     3721 V1.5 - ze względu na brak wersji V1.6) oraz zaznaczyć ,,No'' przy Grafcet (rys. \ref{konfiguracja1}).
-    \zdjecie{./zdjecia/konfiguracja.png}{Uruchomienie programu PL7PRO}{konfiguracja1}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{./zdjecia/konfiguracja.png}
+        \caption{Uruchomienie programu PL7PRO}
+        \label{konfiguracja1}
+    \end{figure}
     \item Następnie zdefiniowano typy modułów sterownika. Wybrano opcję \textit{Configuration $ \rightarrow $ Hardware configuration} i wpisano odpowiednie typy modułów (rys.\ref{hardware_conf}). W przypadku stanowiska pierwszego były one następujące: 
     \begin{itemize}
         \item moduł wejść i wyjść cyfrowych - TSX DMZ 28DR
         \item moduł wejść analogowych - TSX AEZ 414
         \item moduł wyjść analogowych - TSX ASZ 200
     \end{itemize}
-    \zdjecie{./zdjecia/hardware_conf.png}{Konfiguracja hardware'u - określanie modułów sterownika}{hardware_conf}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{./zdjecia/hardware_conf.png}
+        \caption{Konfiguracja hardware'u - określanie modułów sterownika}
+        \label{hardware_conf}
+    \end{figure}
     \item Wybrano język programowania drabinkowy we właściwościach programu głównego (rys.\ref{LD}).
-    \zdjecie{./zdjecia/main_LD.png}{Wybranie języka LD}{LD}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{./zdjecia/main_LD.png}
+        \caption{Wybranie języka LD}
+        \label{LD}
+    \end{figure}
 \end{enumerate}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.8)  28 NOV 2022 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.8)  2 DEC 2022 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,79 +849,78 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 <./zdjecia/konfiguracja.png, id=36, 518.93875pt x 310.15875pt>
 File: ./zdjecia/konfiguracja.png Graphic file (type png)
 <use ./zdjecia/konfiguracja.png>
-Package pdftex.def Info: ./zdjecia/konfiguracja.png  used on input line 63.
-(pdftex.def)             Requested size: 511.86491pt x 305.94594pt.
+Package pdftex.def Info: ./zdjecia/konfiguracja.png  used on input line 65.
+(pdftex.def)             Requested size: 415.15157pt x 248.12733pt.
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./zdjecia/hardware_conf.png, id=50, 751.80875pt x 437.635pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./zdjecia/konfiguracja.png>]
+<./zdjecia/hardware_conf.png, id=51, 751.80875pt x 437.635pt>
 File: ./zdjecia/hardware_conf.png Graphic file (type png)
 <use ./zdjecia/hardware_conf.png>
-Package pdftex.def Info: ./zdjecia/hardware_conf.png  used on input line 70.
-(pdftex.def)             Requested size: 511.86491pt x 297.96849pt.
- [2 <./zdjecia/konfiguracja.png>]
-<./zdjecia/main_LD.png, id=62, 510.90875pt x 317.185pt>
+Package pdftex.def Info: ./zdjecia/hardware_conf.png  used on input line 77.
+(pdftex.def)             Requested size: 451.08871pt x 262.58302pt.
+<./zdjecia/main_LD.png, id=53, 510.90875pt x 317.185pt>
 File: ./zdjecia/main_LD.png Graphic file (type png)
 <use ./zdjecia/main_LD.png>
-Package pdftex.def Info: ./zdjecia/main_LD.png  used on input line 72.
-(pdftex.def)             Requested size: 511.86491pt x 317.77466pt.
- [3 <./zdjecia/hardware_conf.png>]
-<./zdjecia/1galaz.png, id=70, 1670.24pt x 663.47874pt>
+Package pdftex.def Info: ./zdjecia/main_LD.png  used on input line 84.
+(pdftex.def)             Requested size: 408.72755pt x 253.74832pt.
+ [2 <./zdjecia/hardware_conf.png>]
+<./zdjecia/1galaz.png, id=66, 1670.24pt x 663.47874pt>
 File: ./zdjecia/1galaz.png Graphic file (type png)
 <use ./zdjecia/1galaz.png>
-Package pdftex.def Info: ./zdjecia/1galaz.png  used on input line 83.
+Package pdftex.def Info: ./zdjecia/1galaz.png  used on input line 98.
 (pdftex.def)             Requested size: 511.86491pt x 203.32755pt.
- [4 <./zdjecia/main_LD.png>]
-<./zdjecia/2galaz.png, id=78, 1669.23625pt x 579.16376pt>
+ [3 <./zdjecia/main_LD.png>]
+<./zdjecia/2galaz.png, id=74, 1669.23625pt x 579.16376pt>
 File: ./zdjecia/2galaz.png Graphic file (type png)
 <use ./zdjecia/2galaz.png>
-Package pdftex.def Info: ./zdjecia/2galaz.png  used on input line 89.
+Package pdftex.def Info: ./zdjecia/2galaz.png  used on input line 104.
 (pdftex.def)             Requested size: 511.86491pt x 177.5947pt.
-<./zdjecia/3galaz.png, id=79, 1665.22125pt x 429.605pt>
+<./zdjecia/3galaz.png, id=75, 1665.22125pt x 429.605pt>
 File: ./zdjecia/3galaz.png Graphic file (type png)
 <use ./zdjecia/3galaz.png>
-Package pdftex.def Info: ./zdjecia/3galaz.png  used on input line 93.
+Package pdftex.def Info: ./zdjecia/3galaz.png  used on input line 108.
 (pdftex.def)             Requested size: 511.86491pt x 132.05522pt.
- [5 <./zdjecia/1galaz.png> <./zdjecia/2galaz.png>]
-<./zdjecia/4galaz.png, id=88, 1661.20625pt x 373.395pt>
+ [4 <./zdjecia/1galaz.png> <./zdjecia/2galaz.png>]
+<./zdjecia/4galaz.png, id=84, 1661.20625pt x 373.395pt>
 File: ./zdjecia/4galaz.png Graphic file (type png)
 <use ./zdjecia/4galaz.png>
-Package pdftex.def Info: ./zdjecia/4galaz.png  used on input line 97.
+Package pdftex.def Info: ./zdjecia/4galaz.png  used on input line 112.
 (pdftex.def)             Requested size: 511.86491pt x 115.05045pt.
-<./zdjecia/5galaz.png, id=89, 1670.24pt x 332.24126pt>
+<./zdjecia/5galaz.png, id=85, 1670.24pt x 332.24126pt>
 File: ./zdjecia/5galaz.png Graphic file (type png)
 <use ./zdjecia/5galaz.png>
-Package pdftex.def Info: ./zdjecia/5galaz.png  used on input line 101.
+Package pdftex.def Info: ./zdjecia/5galaz.png  used on input line 116.
 (pdftex.def)             Requested size: 511.86491pt x 101.81757pt.
-<./zdjecia/6galaz.png, id=90, 1672.2475pt x 401.5pt>
+<./zdjecia/6galaz.png, id=86, 1672.2475pt x 401.5pt>
 File: ./zdjecia/6galaz.png Graphic file (type png)
 <use ./zdjecia/6galaz.png>
-Package pdftex.def Info: ./zdjecia/6galaz.png  used on input line 105.
+Package pdftex.def Info: ./zdjecia/6galaz.png  used on input line 120.
 (pdftex.def)             Requested size: 511.86491pt x 122.89536pt.
- [6 <./zdjecia/3galaz.png> <./zdjecia/4galaz.png> <./zdjecia/5galaz.png>] [7 <./zdjecia/6galaz.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+ [5 <./zdjecia/3galaz.png> <./zdjecia/4galaz.png> <./zdjecia/5galaz.png>] [6 <./zdjecia/6galaz.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (/home/zuzanna/Pulpit/sem5/SIR/3lab/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A4E7A592611FC5056885DE55BD283AD6;451.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 30892 strings out of 483148
- 712157 string characters out of 5965417
- 1131295 words of memory out of 5000000
+ 30891 strings out of 483148
+ 712151 string characters out of 5965417
+ 1132295 words of memory out of 5000000
  45322 multiletter control sequences out of 15000+600000
  540621 words of font info for 43 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  68i,11n,98p,756b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/zuzanna/Pulpit/sem5/SIR/3lab/main.pdf (7 pages, 164424 bytes).
+Output written on /home/zuzanna/Pulpit/sem5/SIR/3lab/main.pdf (6 pages, 164103 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

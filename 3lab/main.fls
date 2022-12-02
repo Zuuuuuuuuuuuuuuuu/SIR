@@ -333,8 +333,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm
 INPUT /home/zuzanna/Pulpit/sem5/SIR/3lab/./zdjecia/konfiguracja.png
 INPUT ./zdjecia/konfiguracja.png
 INPUT ./zdjecia/konfiguracja.png
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /home/zuzanna/Pulpit/sem5/SIR/3lab/./zdjecia/hardware_conf.png
 INPUT ./zdjecia/hardware_conf.png
