@@ -59,21 +59,61 @@ Celem ćwiczenia było utworzenie projektu regulacji PID oraz analiza wykresów 
 Przed rozpoczęciem pracy na sterowniku, należało uruchomić oprogramowanie Proficy Machine Edition i skonfigurować sterownik. W tym celu wykonano poniższe czynności:
 \begin{enumerate}
     \item Utworzono nowy projekt wybierając z głównego menu \textit{File $\rightarrow$ New Project}. Wpisano tytuł projektu oraz wybrano szablon \textit{GE Intelligent Platform VersaMax PLC} (rys. \ref{nowy_projekt}). Poprawnie utworzony projekt widoczny w zakładce \textit{Navigator} przedstawiono na rys. \ref{utworzony_projekt}.
-    \zdjecie{./zdj/nowy_projekt.png}{Utworzenie nowego projektu w programie Proficy Machine Edition}{nowy_projekt}
-    \zdjecie{./zdj/utworzony_projekt.png}{Poprawnie utworzony projekt}{utworzony_projekt}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.55]{./zdj/nowy_projekt.png}
+        \caption{Utworzenie nowego projektu w programie Proficy Machine Edition}
+        \label{nowy_projekt}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{./zdj/utworzony_projekt.png}
+        \caption{Poprawnie utworzony projekt}
+        \label{utworzony_projekt}
+    \end{figure}
     \item Rozwijając \textit{Hardware Configuration $\rightarrow$ Main Rack} pokazały się moduły sterownika. Najpierw, klikając na moduł \textit{PWR} prawym klawiszem i wybierając \textit{Replace Module}, uzupełniono nazwę modułu jako \textit{IC200PWR002/012} (rys. \ref{CPU}). O poprawności wybrania modułu PWR świadczy pojawienie się zielonego elementu przy ikonie, co przedstawia rys. \ref{CPU2}.
     \zdjecie{./zdj/CPU.png}{Zamiana modułu PWR}{CPU}
     \zdjecie{./zdj/CPU2.png}{Poprawnie wybrana jednostka PWR - zielony element przy ikonie}{CPU2}
     \item Rzeczywisty sterownik posiadał 3 ,,kasety''. W programie domyślnie pojawia się klasyczna jednostka centralna jako Slot 0, którą trzeba było zamienić za pomocą opcji \textit{Replace Module} z IC200CPU001 na IC200CPUE05. Pozostałe 2 ,,kasety'' należało dodać najpierw wybierając podstawkę (opcja \textit{Add Carrier/Base}) - rys. \ref{podstawka}, a następnie wybierając właściwy moduł opcją \textit{Add Module} - rys. \ref{modul}. W ten sposób zostały zdefiniowane poszczególne ,,kasety'': \\
     Slot 1 $\rightarrow$ IC200MDD845 \\
     Slot 2 $\rightarrow$ IC200ALG430. 
-    \zdjecie{./zdj/podstawka.png}{Przykład wybranej podstawki}{podstawka}
-    \zdjecie{./zdj/modul.png}{Przykład wybranego modułu}{modul}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{./zdj/podstawka.png}
+        \caption{Przykład wybranej podstawki}
+        \label{podstawka}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{./zdj/modul.png}
+        \caption{Przykład wybranego modułu}
+        \label{modul}
+    \end{figure}
     \item Następnie wykonano konfigurację jednostki centralnej, to znaczy: zdezaktywowano hasło (rys. \ref{haslo}), uzupełniono adres IP (rys. \ref{IP}) oraz maskę (rys. \ref{maska}), oraz przeniesiono obszar pamięci statusu od adresu początkowego $\%I100$ (rys. \ref{adresy}).
-    \zdjecie{./zdj/haslo.png}{Zdezaktywowanie hasła}{haslo}
-    \zdjecie{./zdj/IP.png}{Zmiana adresu IP}{IP}
-    \zdjecie{./zdj/maska.png}{Uzupełnienie maski}{maska}
-    \zdjecie{./zdj/adresy.png}{Przeniesienie obszaru pamięci statusu}{adresy}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{./zdj/haslo.png}
+        \caption{Zdezaktywowanie hasła}
+        \label{haslo}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{./zdj/IP.png}
+        \caption{Zmiana adresu IP}
+        \label{IP}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{./zdj/maska.png}
+        \caption{Uzupełnienie maski}
+        \label{maska}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{./zdj/adresy.png}
+        \caption{Przeniesienie obszaru pamięci statusu}
+        \label{adresy}
+    \end{figure}
     \item Zmieniono adres referencyjny dla wejść binarnych od $\%I001$ (rys.\ref{adresy_binarne}).
     \zdjecie{./zdj/adresy_binarne.png}{Zmiana adresów obszaru pamięci dla wejść binarnych}{adresy_binarne}
     \item Po zakończeniu konfiguracji sprzętowej przeprowadzono walidację projektu (rys. \ref{walidacja}).
@@ -87,7 +127,7 @@ W celu przeprowadzenia badania odpowiedzi skokowych regulatora PID wprowadzony z
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = \textwidth]{./zdj/network1.png}
+    \includegraphics[scale=0.7]{./zdj/network1.png}
 \end{figure}
 \begin{figure}[H]
     \centering
@@ -107,10 +147,25 @@ W celu przeprowadzenia badania odpowiedzi skokowych regulatora PID wprowadzony z
 
 \subsection{Uruchomienie i działanie programu}
 Po powtórzeniu walidacji całego programu, przesłano go do sterownika. Przed poleceniem połączenia wybrano port fizyczny komputera Ethernet i wpisano adres IP sterownika (rys.\ref{inspector}).
-\zdjecie{./zdj/inspector}{Port fizyczny Ethernet i adres IP}{inspector}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{./zdj/inspector}
+    \caption{Port fizyczny Ethernet i adres IP}
+    \label{inspector}
+\end{figure}
 Przesyłanie rozpoczyna się od otwarcia okna \textit{Download to Controller} (rys.\ref{download}), następnie pojawia sie okno \textit{Start Controller} (rys.\ref{start}).
-\zdjecie{./zdj/download.png}{\textit{Download to Controller}}{download}
-\zdjecie{./zdj/start}{\textit{Start Controller}}{start}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{./zdj/download.png}
+    \caption{\textit{Download to Controller}}
+    \label{download}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[]{./zdj/start}
+    \caption{\textit{Start Controller}}
+    \label{start}
+\end{figure}
 
 
 \section{Analiza przebiegów}
@@ -118,6 +173,8 @@ Przesyłanie rozpoczyna się od otwarcia okna \textit{Download to Controller} (r
 Poprawność działania regulacji całkującej sprawdzono dla następujących danych: współczynnik wzmocnienia $K_p=1$, czas zdwojenia $T_i = 100s$ oraz $T_i = 10s$. Na wejście podano skok jednostkowy i uzyskano następujące przebiegi:
 
 \zdjecie{./zdj/calkujacy_100.png}{Odpowiedź regulatora PI przy $T_i=100s$}{PI_100}
+Po 100 sekundach wartość odpowiedzi układu powinna być dwukrotną wartością początkową, zatem powinna wynieść 
+
 \zdjecie{./zdj/calkujacy_10.png}{Odpowiedź regulatora PI przy $T_i=10s$}{PI_10}
 
 \subsection{Regulator PD}

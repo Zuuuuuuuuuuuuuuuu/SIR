@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.8)  29 DEC 2022 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.8)  31 DEC 2022 00:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,162 +849,162 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 <./zdj/nowy_projekt.png, id=45, 637.38126pt x 548.0475pt>
 File: ./zdj/nowy_projekt.png Graphic file (type png)
 <use ./zdj/nowy_projekt.png>
-Package pdftex.def Info: ./zdj/nowy_projekt.png  used on input line 62.
-(pdftex.def)             Requested size: 511.86491pt x 440.11946pt.
+Package pdftex.def Info: ./zdj/nowy_projekt.png  used on input line 64.
+(pdftex.def)             Requested size: 350.56078pt x 301.42705pt.
 <./zdj/utworzony_projekt.png, id=47, 423.5825pt x 392.46625pt>
 File: ./zdj/utworzony_projekt.png Graphic file (type png)
 <use ./zdj/utworzony_projekt.png>
-Package pdftex.def Info: ./zdj/utworzony_projekt.png  used on input line 63.
-(pdftex.def)             Requested size: 511.86491pt x 474.28076pt.
+Package pdftex.def Info: ./zdj/utworzony_projekt.png  used on input line 70.
+(pdftex.def)             Requested size: 296.50572pt x 274.72449pt.
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./zdj/nowy_projekt.png>]
-<./zdj/CPU.png, id=69, 819.06pt x 455.7025pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./zdj/nowy_projekt.png>]
+<./zdj/CPU.png, id=65, 819.06pt x 455.7025pt>
 File: ./zdj/CPU.png Graphic file (type png)
 <use ./zdj/CPU.png>
-Package pdftex.def Info: ./zdj/CPU.png  used on input line 65.
+Package pdftex.def Info: ./zdj/CPU.png  used on input line 75.
 (pdftex.def)             Requested size: 511.86491pt x 284.7925pt.
-<./zdj/CPU2.png, id=70, 899.36pt x 507.8975pt>
+<./zdj/CPU2.png, id=66, 899.36pt x 507.8975pt>
 File: ./zdj/CPU2.png Graphic file (type png)
 <use ./zdj/CPU2.png>
-Package pdftex.def Info: ./zdj/CPU2.png  used on input line 66.
+Package pdftex.def Info: ./zdj/CPU2.png  used on input line 76.
 (pdftex.def)             Requested size: 511.86491pt x 289.07059pt.
- [3 <./zdj/utworzony_projekt.png>]
-<./zdj/podstawka.png, id=81, 547.04375pt x 389.455pt>
+ [2 <./zdj/utworzony_projekt.png>]
+<./zdj/podstawka.png, id=77, 547.04375pt x 389.455pt>
 File: ./zdj/podstawka.png Graphic file (type png)
 <use ./zdj/podstawka.png>
-Package pdftex.def Info: ./zdj/podstawka.png  used on input line 70.
-(pdftex.def)             Requested size: 511.86491pt x 364.41193pt.
- [4 <./zdj/CPU.png> <./zdj/CPU2.png>]
-<./zdj/modul.png, id=89, 548.0475pt x 391.4625pt>
+Package pdftex.def Info: ./zdj/podstawka.png  used on input line 82.
+(pdftex.def)             Requested size: 437.63559pt x 311.5644pt.
+ [3 <./zdj/CPU.png> <./zdj/CPU2.png>]
+<./zdj/modul.png, id=85, 548.0475pt x 391.4625pt>
 File: ./zdj/modul.png Graphic file (type png)
 <use ./zdj/modul.png>
-Package pdftex.def Info: ./zdj/modul.png  used on input line 71.
-(pdftex.def)             Requested size: 511.86491pt x 365.6273pt.
- [5 <./zdj/podstawka.png>]
-<./zdj/haslo.png, id=101, 568.1225pt x 324.21124pt>
+Package pdftex.def Info: ./zdj/modul.png  used on input line 88.
+(pdftex.def)             Requested size: 438.4386pt x 313.17041pt.
+ [4 <./zdj/podstawka.png>]
+<./zdj/haslo.png, id=97, 568.1225pt x 324.21124pt>
 File: ./zdj/haslo.png Graphic file (type png)
 <use ./zdj/haslo.png>
-Package pdftex.def Info: ./zdj/haslo.png  used on input line 73.
-(pdftex.def)             Requested size: 511.86491pt x 292.11887pt.
-<./zdj/IP.png, id=102, 565.11125pt x 319.1925pt>
+Package pdftex.def Info: ./zdj/haslo.png  used on input line 95.
+(pdftex.def)             Requested size: 397.68303pt x 226.94632pt.
+<./zdj/IP.png, id=98, 565.11125pt x 319.1925pt>
 File: ./zdj/IP.png Graphic file (type png)
 <use ./zdj/IP.png>
-Package pdftex.def Info: ./zdj/IP.png  used on input line 74.
-(pdftex.def)             Requested size: 511.86491pt x 289.12137pt.
- [6 <./zdj/modul.png>]
-<./zdj/maska.png, id=115, 565.11125pt x 319.1925pt>
+Package pdftex.def Info: ./zdj/IP.png  used on input line 101.
+(pdftex.def)             Requested size: 395.57516pt x 223.43321pt.
+<./zdj/maska.png, id=99, 565.11125pt x 319.1925pt>
 File: ./zdj/maska.png Graphic file (type png)
 <use ./zdj/maska.png>
-Package pdftex.def Info: ./zdj/maska.png  used on input line 75.
-(pdftex.def)             Requested size: 511.86491pt x 289.12137pt.
-<./zdj/adresy.png, id=116, 698.61pt x 337.26pt>
+Package pdftex.def Info: ./zdj/maska.png  used on input line 107.
+(pdftex.def)             Requested size: 395.57516pt x 223.43321pt.
+ [5 <./zdj/modul.png> <./zdj/haslo.png>]
+<./zdj/adresy.png, id=113, 698.61pt x 337.26pt>
 File: ./zdj/adresy.png Graphic file (type png)
 <use ./zdj/adresy.png>
-Package pdftex.def Info: ./zdj/adresy.png  used on input line 76.
-(pdftex.def)             Requested size: 511.86491pt x 247.10861pt.
- [7 <./zdj/haslo.png> <./zdj/IP.png>]
-<./zdj/adresy_binarne.png, id=125, 500.87125pt x 339.2675pt>
+Package pdftex.def Info: ./zdj/adresy.png  used on input line 113.
+(pdftex.def)             Requested size: 489.02367pt x 236.08038pt.
+ [6 <./zdj/IP.png> <./zdj/maska.png>]
+<./zdj/adresy_binarne.png, id=121, 500.87125pt x 339.2675pt>
 File: ./zdj/adresy_binarne.png Graphic file (type png)
 <use ./zdj/adresy_binarne.png>
-Package pdftex.def Info: ./zdj/adresy_binarne.png  used on input line 78.
+Package pdftex.def Info: ./zdj/adresy_binarne.png  used on input line 118.
 (pdftex.def)             Requested size: 511.86491pt x 346.7316pt.
- [8 <./zdj/maska.png> <./zdj/adresy.png>]
-<./zdj/walidacja.png, id=135, 644.4075pt x 250.9375pt>
+<./zdj/walidacja.png, id=123, 644.4075pt x 250.9375pt>
 File: ./zdj/walidacja.png Graphic file (type png)
 <use ./zdj/walidacja.png>
-Package pdftex.def Info: ./zdj/walidacja.png  used on input line 80.
+Package pdftex.def Info: ./zdj/walidacja.png  used on input line 120.
 (pdftex.def)             Requested size: 511.86491pt x 199.33353pt.
-<./zdj/network1.png, id=136, 727.71875pt x 523.9575pt>
+ [7 <./zdj/adresy.png> <./zdj/adresy_binarne.png>]
+<./zdj/network1.png, id=133, 727.71875pt x 523.9575pt>
 File: ./zdj/network1.png Graphic file (type png)
 <use ./zdj/network1.png>
-Package pdftex.def Info: ./zdj/network1.png  used on input line 90.
-(pdftex.def)             Requested size: 511.86491pt x 368.55061pt.
- [9 <./zdj/adresy_binarne.png> <./zdj/walidacja.png>]
-<./zdj/network2.png, id=145, 905.3825pt x 536.0025pt>
+Package pdftex.def Info: ./zdj/network1.png  used on input line 130.
+(pdftex.def)             Requested size: 509.39964pt x 366.76775pt.
+<./zdj/network2.png, id=134, 905.3825pt x 536.0025pt>
 File: ./zdj/network2.png Graphic file (type png)
 <use ./zdj/network2.png>
-Package pdftex.def Info: ./zdj/network2.png  used on input line 94.
+Package pdftex.def Info: ./zdj/network2.png  used on input line 134.
 (pdftex.def)             Requested size: 511.86491pt x 303.03009pt.
-<./zdj/network3.png, id=146, 738.76pt x 482.80376pt>
+ [8 <./zdj/walidacja.png>]
+<./zdj/network3.png, id=142, 738.76pt x 482.80376pt>
 File: ./zdj/network3.png Graphic file (type png)
 <use ./zdj/network3.png>
-Package pdftex.def Info: ./zdj/network3.png  used on input line 98.
+Package pdftex.def Info: ./zdj/network3.png  used on input line 138.
 (pdftex.def)             Requested size: 511.86491pt x 334.51994pt.
- [10 <./zdj/network1.png>]
-<./zdj/network4.png, id=153, 744.7825pt x 482.80376pt>
+<./zdj/network4.png, id=143, 744.7825pt x 482.80376pt>
 File: ./zdj/network4.png Graphic file (type png)
 <use ./zdj/network4.png>
-Package pdftex.def Info: ./zdj/network4.png  used on input line 102.
+Package pdftex.def Info: ./zdj/network4.png  used on input line 142.
 (pdftex.def)             Requested size: 511.86491pt x 331.82362pt.
- [11 <./zdj/network2.png> <./zdj/network3.png>]
-<./zdj/network5.png, id=162, 758.835pt x 441.65pt>
+ [9 <./zdj/network1.png> <./zdj/network2.png>]
+<./zdj/network5.png, id=152, 758.835pt x 441.65pt>
 File: ./zdj/network5.png Graphic file (type png)
 <use ./zdj/network5.png>
-Package pdftex.def Info: ./zdj/network5.png  used on input line 105.
+Package pdftex.def Info: ./zdj/network5.png  used on input line 145.
 (pdftex.def)             Requested size: 511.86491pt x 297.91219pt.
-<./zdj/inspector.png, id=164, 581.17125pt x 453.695pt>
+ [10 <./zdj/network3.png> <./zdj/network4.png>]
+<./zdj/inspector.png, id=162, 581.17125pt x 453.695pt>
 File: ./zdj/inspector.png Graphic file (type png)
 <use ./zdj/inspector.png>
-Package pdftex.def Info: ./zdj/inspector.png  used on input line 110.
-(pdftex.def)             Requested size: 511.86491pt x 399.59897pt.
- [12 <./zdj/network4.png> <./zdj/network5.png>]
-<./zdj/download.png, id=175, 299.1175pt x 352.31625pt>
+Package pdftex.def Info: ./zdj/inspector.png  used on input line 152.
+(pdftex.def)             Requested size: 406.8171pt x 317.58434pt.
+ [11 <./zdj/network5.png>]
+<./zdj/download.png, id=172, 299.1175pt x 352.31625pt>
 File: ./zdj/download.png Graphic file (type png)
 <use ./zdj/download.png>
-Package pdftex.def Info: ./zdj/download.png  used on input line 112.
-(pdftex.def)             Requested size: 511.86491pt x 602.9455pt.
-<./zdj/start.png, id=176, 277.035pt x 147.55125pt>
+Package pdftex.def Info: ./zdj/download.png  used on input line 159.
+(pdftex.def)             Requested size: 224.33757pt x 264.23653pt.
+<./zdj/start.png, id=173, 277.035pt x 147.55125pt>
 File: ./zdj/start.png Graphic file (type png)
 <use ./zdj/start.png>
-Package pdftex.def Info: ./zdj/start.png  used on input line 113.
-(pdftex.def)             Requested size: 511.86491pt x 272.62553pt.
- [13 <./zdj/inspector.png>] [14 <./zdj/download.png>]
-<./zdj/calkujacy_100.png, id=192, 1472.50125pt x 632.3625pt>
+Package pdftex.def Info: ./zdj/start.png  used on input line 165.
+(pdftex.def)             Requested size: 277.03432pt x 147.55087pt.
+ [12 <./zdj/inspector.png> <./zdj/download.png>]
+<./zdj/calkujacy_100.png, id=183, 1472.50125pt x 632.3625pt>
 File: ./zdj/calkujacy_100.png Graphic file (type png)
 <use ./zdj/calkujacy_100.png>
-Package pdftex.def Info: ./zdj/calkujacy_100.png  used on input line 120.
+Package pdftex.def Info: ./zdj/calkujacy_100.png  used on input line 175.
 (pdftex.def)             Requested size: 511.86491pt x 219.81529pt.
-<./zdj/calkujacy_10.png, id=193, 1467.4825pt x 775.89874pt>
+<./zdj/calkujacy_10.png, id=184, 1467.4825pt x 775.89874pt>
 File: ./zdj/calkujacy_10.png Graphic file (type png)
 <use ./zdj/calkujacy_10.png>
-Package pdftex.def Info: ./zdj/calkujacy_10.png  used on input line 121.
+Package pdftex.def Info: ./zdj/calkujacy_10.png  used on input line 178.
 (pdftex.def)             Requested size: 511.86491pt x 270.63333pt.
- [15 <./zdj/start.png> <./zdj/calkujacy_100.png>]
-<./zdj/rozniczkujacy_15.png, id=202, 1590.94376pt x 794.97pt>
+ [13 <./zdj/start.png> <./zdj/calkujacy_100.png>]
+<./zdj/rozniczkujacy_15.png, id=194, 1590.94376pt x 794.97pt>
 File: ./zdj/rozniczkujacy_15.png Graphic file (type png)
 <use ./zdj/rozniczkujacy_15.png>
-Package pdftex.def Info: ./zdj/rozniczkujacy_15.png  used on input line 126.
+Package pdftex.def Info: ./zdj/rozniczkujacy_15.png  used on input line 183.
 (pdftex.def)             Requested size: 511.86491pt x 255.76631pt.
-<./zdj/rozniczkujacy_10.png, id=203, 1606.0pt x 799.98875pt>
+<./zdj/rozniczkujacy_10.png, id=195, 1606.0pt x 799.98875pt>
 File: ./zdj/rozniczkujacy_10.png Graphic file (type png)
 <use ./zdj/rozniczkujacy_10.png>
-Package pdftex.def Info: ./zdj/rozniczkujacy_10.png  used on input line 127.
+Package pdftex.def Info: ./zdj/rozniczkujacy_10.png  used on input line 184.
 (pdftex.def)             Requested size: 511.86491pt x 254.97626pt.
- [16 <./zdj/calkujacy_10.png> <./zdj/rozniczkujacy_15.png>] [17 <./zdj/rozniczkujacy_10.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+ [14 <./zdj/calkujacy_10.png> <./zdj/rozniczkujacy_15.png>] [15 <./zdj/rozniczkujacy_10.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (/home/zuzanna/Pulpit/sem5/SIR/4lab/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3A4946E722B47C4C76C4F5EFA80898D6;582.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
- 31028 strings out of 483148
- 714462 string characters out of 5965417
- 1132295 words of memory out of 5000000
+ 31026 strings out of 483148
+ 714448 string characters out of 5965417
+ 1132293 words of memory out of 5000000
  45414 multiletter control sequences out of 15000+600000
  540284 words of font info for 42 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  68i,11n,98p,756b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/zuzanna/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/zuzanna/Pulpit/sem5/SIR/4lab/main.pdf (17 pages, 476993 bytes).
+Output written on /home/zuzanna/Pulpit/sem5/SIR/4lab/main.pdf (15 pages, 476478 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
