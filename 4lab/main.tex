@@ -23,10 +23,13 @@
 \usepackage{multicol}
 \usepackage{pgfplots}
 \usepackage{fancyhdr}
+% dodanie kropek po numerach w \section
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
 
 \newgeometry{tmargin=1.8cm,bmargin=1.8cm,lmargin =1.8cm,rmargin=1.8cm}
 \begin{document}
-
+\renewcommand{\figurename}{Rys.}
 \newcommand{\zdjecie}[3]
 {
     \begin{figure}[H]
@@ -111,7 +114,7 @@ Przed rozpoczęciem pracy na sterowniku, należało uruchomić oprogramowanie Pr
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.7]{./zdj/adresy.png}
-        \caption{Przeniesienie obszaru pamięci statusu}
+        \caption{Przeniesienie obszaru pamięci }
         \label{adresy}
     \end{figure}
     \item Zmieniono adres referencyjny dla wejść binarnych od $\%I001$ (rys.\ref{adresy_binarne}).
@@ -146,14 +149,14 @@ W celu przeprowadzenia badania odpowiedzi skokowych regulatora PID wprowadzony z
 
 
 \subsection{Uruchomienie i działanie programu}
-Po powtórzeniu walidacji całego programu, przesłano go do sterownika. Przed poleceniem połączenia wybrano port fizyczny komputera Ethernet i wpisano adres IP sterownika (rys.\ref{inspector}).
+Po powtórzeniu walidacji całego programu, przesłano go do sterownika. Przed poleceniem połączenia wybrano port fizyczny komputera Ethernet i wpisano adres IP sterownika (rys. \ref{inspector}).
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{./zdj/inspector}
     \caption{Port fizyczny Ethernet i adres IP}
     \label{inspector}
 \end{figure}
-Przesyłanie rozpoczyna się od otwarcia okna \textit{Download to Controller} (rys.\ref{download}), następnie pojawia sie okno \textit{Start Controller} (rys.\ref{start}).
+Przesyłanie rozpoczyna się od otwarcia okna \textit{Download to Controller} (rys. \ref{download}), następnie pojawia sie okno \textit{Start Controller} (rys. \ref{start}).
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.75]{./zdj/download.png}
@@ -173,9 +176,11 @@ Przesyłanie rozpoczyna się od otwarcia okna \textit{Download to Controller} (r
 Poprawność działania regulacji całkującej sprawdzono dla następujących danych: współczynnik wzmocnienia $K_p=1$, czas zdwojenia $T_i = 100s$ oraz $T_i = 10s$. Na wejście podano skok jednostkowy i uzyskano następujące przebiegi:
 
 \zdjecie{./zdj/calkujacy_100.png}{Odpowiedź regulatora PI przy $T_i=100s$}{PI_100}
-Po 100 sekundach wartość odpowiedzi układu powinna być dwukrotną wartością początkową, zatem powinna wynieść 
+Po 100 sekundach wartość odpowiedzi układu powinna być dwukrotną wartością początkową. Po 100 sekundach wartość wyniosła około 15000.
 
 \zdjecie{./zdj/calkujacy_10.png}{Odpowiedź regulatora PI przy $T_i=10s$}{PI_10}
+
+Po 10 sekundach wartość odpowiedzi skokowej układu wyniosła około 15000. 
 
 \subsection{Regulator PD}
 Poprawność działania regulacji różniczkującej sprawdzono dla następujących danych: współczynnik wzmocnienia $K_p=1$, czas wyprzedzenia $T_d = 15s$ oraz $T_d = 10s$. Na wejście podano sygnał narastający liniowo i uzyskano następujące przebiegi:
@@ -184,6 +189,10 @@ Poprawność działania regulacji różniczkującej sprawdzono dla następujący
 \zdjecie{./zdj/rozniczkujacy_10.png}{Odpowiedź regulatora PD przy $T_d=10s$}{PD_10}
 
 \section{Podsumowanie}
+Ćwiczenie nie sprawiło większych problemów. Najwięcej czasu zajął sam proces poprawnej konfiguracji sterownika oraz poprawnego przydzielenia adresów pamięci w programie. Mimo małych trudności, ostatecznie udało się przesłać do sterownika działający program i przetestować generowanie przebiegów regulacji. 
 
+Na podstawie wykresów widocznych na rys. \ref{PI_100} oraz \ref{PI_10} udało się wyznaczyć czas zdwojenia. Osiągnięte wartości po tym czasie nie są dokładne. Rzeczywiste zdwojenie, które można odczytać z wykresów występuje po dłuższym czasie niż zadane.
+
+Na podstawie wykresów widocznych na rys. \ref{PD_15} oraz \ref{PD_10} udało się wyznaczyć czas wyprzedzenia. Wartość osiągana przez sygnał narastający liniowo po zadanym czasie wyprzedzenia rzeczywiście osiągała wartość, jaką odpowiedź skokowa układu osiągnęła już na początku badania. Świadczy to o poprawności działania regulacji.
 
 \end{document}
